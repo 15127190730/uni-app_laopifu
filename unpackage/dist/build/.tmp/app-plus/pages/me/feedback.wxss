@@ -1,0 +1,60 @@
+
+page, .feedback-box{
+	background-color: #FFFFFF;
+}
+.feedback-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 0 30rpx;
+}
+.feedback-tar {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	background-color: #f7f7f7;
+	font-size: 28rpx;
+	color: #333;
+	padding: 30rpx;
+	border-radius: 10rpx;
+}
+.password-v {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 100%;
+	height: 88rpx;
+	border: 1px solid #c5cddb;
+	border-radius: 5rpx;
+}
+.ok-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 100%;
+	color: #FFF;
+	background-color: #2CC17B !important;
+	border-radius: 10rpx;
+}
+

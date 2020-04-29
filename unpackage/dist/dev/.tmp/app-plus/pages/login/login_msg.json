@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "快捷登录",
+  "usingComponents": {
+    "send-msg-com": "/components/send-msg/send-msg"
+  }
+}

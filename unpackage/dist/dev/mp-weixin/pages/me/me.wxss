@@ -1,0 +1,80 @@
+
+.user-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 156rpx;
+	background-color: #FFFFFF;
+	padding: 0rpx 30rpx;
+}
+.user-pic {
+	width: 100rpx;
+	height: 100rpx;
+}
+.user-name {
+	margin-left: 30rpx;
+	font-size: 32rpx;
+}
+.user-link {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+	padding: 0rpx 30rpx;
+}
+.link-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 100%;
+	height: 100rpx;
+	border-bottom: 1px solid #ddd;
+}
+.link-title {
+	font-size: 28rpx;
+	color: #333;
+}
+.link-icon {
+	width: 40rpx;
+	height: 40rpx;
+}
+.out-login {
+	margin-top: 180rpx;
+}
+.out-login-btn {
+	width: 80%;
+	border-radius: 3px;
+	color: #FF4400 !important;
+	font-size: 32rpx;
+}
+.out-login-btn:after {
+	border: 1px solid #FF4400;
+}
+.button-hover {
+	background-color: #F7F7F7 !important;
+}
+

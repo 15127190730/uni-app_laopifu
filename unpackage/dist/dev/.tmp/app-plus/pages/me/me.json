@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "titleNView": {
+    "splitLine": {
+      "color": "#DDDDDD"
+    }
+  },
+  "usingComponents": {}
+}

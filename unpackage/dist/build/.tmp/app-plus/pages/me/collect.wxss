@@ -1,0 +1,93 @@
+
+.movie-list-box {
+	padding: 0rpx 30rpx;
+	background-color: #FFFFFF;
+}
+.movie-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 208rpx;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #ddd;
+}
+.movie-pic-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 220rpx;
+	height: 100%;
+}
+.movie-pic-box image {
+	width: 220rpx;
+	height: 140rpx;
+}
+.movie-info-box {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0rpx 20rpx;
+}
+.movie-info-box-n {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	height: 140rpx;
+	width: 100%;
+}
+.movie-title {
+	height: 70%;
+	font-size: 32rpx;
+	color: #333;
+	overflow: hidden;
+}
+.movie-time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 30%;
+	font-size: 28rpx;
+	color: #555;
+}
+.delet-info {
+	color: #FF4400;
+}
+

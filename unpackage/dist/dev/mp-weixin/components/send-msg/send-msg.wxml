@@ -1,0 +1,1 @@
+<view class="data-v-98ea1694"><view data-event-opts="{{[['tap',[['sendMsg']]]]}}" class="password-icon yzm-btn-box obj-center data-v-98ea1694" style="{{'color:'+(activeColor)+';'+('border-color:'+(activeColor)+';')}}" bindtap="__e"><rich-text nodes="{{yzmhtml}}"></rich-text></view></view>

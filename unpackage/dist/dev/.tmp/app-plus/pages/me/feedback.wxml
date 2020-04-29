@@ -1,0 +1,1 @@
+<view class="page"><view class="feedback-box"><textarea class="feedback-tar" value="" placeholder="请输入您的问题..."></textarea></view><view class="feedback-box"><view class="password-v no-border mt-60"><view class="ok-btn">提交反馈</view></view></view></view>

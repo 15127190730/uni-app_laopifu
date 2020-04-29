@@ -1,0 +1,169 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"align": "center",
+							"placeholder": "请输入片名",
+							"borderRadius": "50upx",
+							"backgroundColor": "#E6E6E6",
+							"disabled": true
+						},
+						// 左右按钮配置
+						"buttons": [
+							// 左边
+							{
+								"color": "#765a3d", // 图标默认展时的颜色哈、
+								"float": "left",
+								"fontSize": "30px", //按钮上文字的大小
+								"fontSrc": "/static/font/iconfont.ttf", //按钮的图片来源哈
+								"text": "\ue606" //按钮的unicode代码
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/type/type",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#DDDDDD"
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/setting/history",
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#DDDDDD"
+						}
+					}
+				}
+			}
+		// }, {
+		// 	"path": "pages/setting/collect",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的收藏",
+		// 		"app-plus": {
+		// 			"titleNView": {
+		// 				"splitLine": {
+		// 					"color": "#DDDDDD"
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }, {
+		// 	"path": "pages/setting/updpass",
+		// 	"style": {
+		// 		"navigationBarTitleText": "修改密码"
+		// 	}
+		// }, {
+		// 	"path": "pages/setting/feedback",
+		// 	"style": {
+		// 		"navigationBarTitleText": "问题反馈"
+		// 	}
+		// }, {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录"
+		// 	}
+		// }, {
+		// 	"path": "pages/login/login_msg",
+		// 	"style": {
+		// 		"navigationBarTitleText": "快捷登录"
+		// 	}
+		// }, {
+		// 	"path": "pages/login/register",
+		// 	"style": {
+		// 		"navigationBarTitleText": "账号注册"
+		// 	}
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#DDDDDD"
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/search/search_result",
+			"style": {
+				"navigationBarTitleText": "搜索结果",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#DDDDDD"
+						}
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "老匹夫",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#515151",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBarIco/home1.png",
+				"selectedIconPath": "static/tabBarIco/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/type/type",
+				"iconPath": "static/tabBarIco/type1.png",
+				"selectedIconPath": "static/tabBarIco/type.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"iconPath": "static/tabBarIco/setting1.png",
+				"selectedIconPath": "static/tabBarIco/setting.png",
+				"text": "设置"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

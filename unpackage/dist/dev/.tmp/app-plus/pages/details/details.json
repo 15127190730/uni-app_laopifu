@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": {
+    "splitLine": {
+      "color": "#DDDDDD"
+    }
+  },
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}
